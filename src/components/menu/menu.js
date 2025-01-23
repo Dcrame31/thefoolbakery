@@ -4,7 +4,11 @@ import { Route } from 'react-router'
 
 function menu() {
   return (
-    <div>menu</div>
+    <div>
+        <header>
+            menu
+        </header>
+    </div>
   )
 }
 
