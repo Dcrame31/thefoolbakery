@@ -1,8 +1,13 @@
 import React from 'react'
+import { Route } from 'react-router'
 
 function order() {
   return (
-    <div>order</div>
+    <div>
+        <header>
+            <p>order</p>
+        </header>
+    </div>
   )
 }
 

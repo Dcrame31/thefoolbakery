@@ -6,7 +6,7 @@ function menu() {
   return (
     <div>
         <header>
-            menu
+            <p>menu</p>
         </header>
     </div>
   )

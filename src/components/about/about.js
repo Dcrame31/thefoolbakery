@@ -1,8 +1,13 @@
 import React from 'react'
+import { Router } from 'react-router'
 
 function about() {
   return (
-    <div>about</div>
+    <div>
+        <header>
+            <p>about</p>
+        </header>
+    </div>
   )
 }
 

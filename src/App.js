@@ -1,20 +1,21 @@
 import fool from './images/TheFoolLogo.jpg'
 import './App.css';
-import menu from './components/menu/menu.js';
-import about from './components/about/about.js';
-import order from './components/order/order.js';
-import contact from './components/contact/contact.js';
+import Menu from './components/menu/menu.js';
+import About from './components/about/about.js';
+import Order from './components/order/order.js';
+import Contact from './components/contact/contact.js';
 import { BrowserRouter } from 'react-router-dom';
 import { Route, Routes } from 'react-router-dom';
+import navbar from './components/navigation/navigation.js';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={menu}/>
-        <Route path="/order" element={order}/>
-        <Route path="/about" element={about}/>
-        <Route path="/contact" element={contact}/>
+        <Route path="/menu" element={<Menu/>}/>
+        <Route path="/order" element={<Order/>}/>
+        <Route path="/about" element={<About/>}/>
+        <Route path="/contact" element={<Contact/>}/>
       </Routes>
       <div className="App">
       <header className="App-header">

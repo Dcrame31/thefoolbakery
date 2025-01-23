@@ -2,7 +2,13 @@ import React from 'react'
 
 function contact() {
   return (
-    <div>contact</div>
+    <div>
+        <header>
+            <p>
+            contact
+            </p>
+        </header>
+    </div>
   )
 }
 
